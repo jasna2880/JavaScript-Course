@@ -1,0 +1,38 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        const number = prompt('enter a number:');
+        let unit = prompt('enter a unit(C or F):');
+
+        convertToTemperature(number, unit);
+        function convertToTemperature(number, unit) {
+            if (unit == 'C') {
+                convertToFahrenheit(number);
+            } else {
+                convertToCelsius(number);
+
+            }
+
+
+
+        }
+
+        function convertToFahrenheit(number) {
+            console.log(`Fahrenheit of given number:${(number * 9 / 5) + 32}`);
+        }
+        function convertToCelsius(number) {
+            console.log(`celsius of given number:${(number - 32) * 5 / 9}`);
+        }
+
+    </script>
+</body>
+
+</html>

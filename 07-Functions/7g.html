@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Length Converter</title>
+</head>
+<body>
+
+<script>
+  let length = Number(prompt('Enter length:'));
+  let from = prompt('Enter from unit (km or miles):');
+  let to = prompt('Enter to unit (km or miles):');
+
+  convertLength(length, from, to);
+
+  function convertLength(length, from, to) {
+
+    if (from === 'km' && to === 'miles') {
+      console.log(`Miles: ${length / 1.6}`);
+
+    } else if (from === 'miles' && to === 'km') {
+      console.log(`Km: ${length * 1.6}`);
+
+    } else if (from === to) {
+      console.log(`${from}: ${length}`);
+
+    } else {
+      console.log('Invalid unit entered');
+    }
+  }
+</script>
+
+</body>
+</html>

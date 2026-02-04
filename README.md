@@ -6,12 +6,12 @@ I am learning JavaScript step by step as part of my journey to become a full-sta
 ## 📚 Lessons Progress
 
 - ✅ Lesson 01: JavaScript Basics
-- ⏳ Lesson 02: Numbers and Math
-- ⏳ Lesson 03: Strings
-- ⏳ Lesson 04: HTML CSS Review, console.log
-- ⏳ Lesson 05: Variables
-- ⏳ Lesson 06: Booleans and If-Statements
-- ⏳ Lesson 07: Functions
+- ✅ Lesson 02: Numbers and Math
+- ✅ Lesson 03: Strings
+- ✅ Lesson 04: HTML CSS Review, console.log
+- ✅ Lesson 05: Variables
+- ✅ Lesson 06: Booleans and If-Statements
+- ✅ Lesson 07: Functions
 - ⏳ Lesson 08: Objects
 - ⏳ Lesson 09: Document Object Model (DOM)
 - ⏳ Lesson 10: HTML, CSS, and JavaScript Together

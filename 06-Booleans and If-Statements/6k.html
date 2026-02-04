@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>cart quantity</p>
+    <button onclick="console.log(`quantity:${quantity}`);">show quantity</button>
+
+    <button onclick="
+        if(quantity>=10){
+          alert('the cart is full')}
+        else{quantity=quantity+1;
+          console.log(`quantity:${quantity}`);}">add to cart</button>
+
+    <button onclick="if(quantity+2>MAX){
+          alert('the cart is full')}
+          else{quantity=quantity+2;
+    console.log(`quantity:${quantity}`);}">+2</button>
+
+    <button onclick="if(quantity+3>MAX){
+          alert('the cart is full')}
+          else{quantity=quantity+3;
+    console.log(`quantity:${quantity}`);}">+3</button>
+
+    <button onclick="quantity=0;console.log(`quantity:${quantity}`);">reset cart</button>
+
+    <button onclick="if(quantity+4>MAX){
+          alert('the cart is full')}
+          else{quantity+=4; console.log(`quantity:${quantity}`)}">+4</button>
+    <button onclick="if(quantity+5>MAX){
+          alert('the cart is full')}
+          else{quantity+=5; console.log(`quantity:${quantity}`)}">+5</button>
+
+    <button onclick="if(quantity-2<MIN){
+        alert('not enough items in the cart');}
+        else if(quantity==1){
+             alert('not enough items in the cart');}
+             else{ quantity-=2; console.log(`quantity:${quantity}`)}">-2</button>
+    <button onclick="if(quantity-3<MIN){
+        alert('not enough items in the cart');}
+        else{quantity-=3; console.log(`quantity:${quantity}`)}">-3</button>
+
+    <button onclick="if(quantity<=0){
+        alert('not enough items in the cart');}
+        else{--quantity; console.log(`quantity:${quantity}`)}">remove from cart</button>
+    <script>
+        let quantity=0;
+        const MAX=10;
+        const MIN=0;
+        
+      
+
+    </script>
+</body>
+</html>
